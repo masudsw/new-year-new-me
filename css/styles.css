@@ -6,12 +6,15 @@
 header{
     height: 800px;
     background-image: url("../images/banner/banner2.png");
+   
 }
 .contents{
     display: block;
     padding-top: 216px;
     float: right;
     padding-left:230px;
+    
+    padding-right: 100px;
 }
 .headline{
     font-size: 65px;
@@ -20,21 +23,66 @@ header{
     text-align: right;
     height: 228px;
     width: 525px; 
+   
 }
 .sometext{
-    width: 494px;
+    width: 525px;
     height:78px;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
     color:#444343;
+    
 }
+
 header button{
+    display:block;
     width: 160px;
     height: 64px;
     background: #F15B22;
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    margin-left: auto;
+    margin-right: 0;
+    
     
 }
+.failure{
+    padding-top: 200px;
+    display: flex;
+    padding-top: 140px;
+    border: black solid 10px;
+}
+.failure-desc{
+    padding-top:100px;
+    border: green solid 10px;
+}
+.failure-head{
+    width: 288px;
+    height:94px;
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.failure-list .paraga{
+    border:#F15B22 solid 10px;
+    height: 104px;
+    width: 416px;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.failure-list .list-item ul{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.failure-list .list-item ul li:before {
+    content: '✓';
+    margin-left: 2em;
+    color:green;
+  }
